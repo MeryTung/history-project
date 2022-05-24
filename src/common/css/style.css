@@ -1,0 +1,19 @@
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.list { overflow: hidden;}
+.list li{float: left; margin:20px 0;}
+.list li:nth-child(n){margin-left:20px;}
+.list li:nth-child(n+1){margin-left:40px;}
+
+.animal-pic-wrapper{
+    width:300px;
+    height: 200px;
+    overflow:hidden;
+    display: inline-block;
+}
+.animal-pic-wrapper img {
+    width: 100%;
+}
